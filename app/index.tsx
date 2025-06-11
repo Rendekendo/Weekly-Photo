@@ -25,6 +25,7 @@ export default function Index() {
       <Link
         href="/takeapicture"
         style={{
+          margin: 5,
           backgroundColor: "#202050",
           paddingVertical: 12,
           paddingHorizontal: 24,
@@ -37,6 +38,21 @@ export default function Index() {
       >
         Take a Picture
       </Link>
+      <Link 
+      href="/files"
+      style={{
+        margin: 5,
+          backgroundColor: "#202050",
+          paddingVertical: 12,
+          paddingHorizontal: 24,
+          borderRadius: 8,
+          color: "white",
+          fontSize: 16,
+          fontWeight: "bold",
+          textAlign: "center",
+        }}
+        >
+      Files</Link>
     </View>
   );
 }
