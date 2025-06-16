@@ -39,7 +39,7 @@ export default function Index() {
         Take a Picture
       </Link>
       <Link 
-      href="/files"
+      href="/gallery"
       style={{
         margin: 5,
           backgroundColor: "#202050",
@@ -52,7 +52,7 @@ export default function Index() {
           textAlign: "center",
         }}
         >
-      Files</Link>
+      Gallery</Link>
     </View>
   );
 }
